@@ -1,0 +1,102 @@
+.header{
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(233, 233, 233) ;
+    margin-top: 35px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 24px;
+}
+
+.upload-icon-con,
+.apps-icon-con,
+.noti-icon-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.menu:hover {
+    cursor: pointer;
+}
+
+
+.right{
+    margin-right: 50px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.button-nav1,
+.button-nav2,
+.button-nav3,
+.button-nav4,
+.button-nav5{
+    height: 68px;
+    width: 68px;
+    border-radius: 34px;
+    background-color: rgb(230, 230, 230);
+    border: none;
+    margin-bottom: 8px;
+}
+
+.img-nav1,
+.img-nav2,
+.img-nav3,
+.img-nav4,
+.img-nav5{
+    background-color: lightgray;
+    height: 56px;
+    width: 56px;
+    border-radius: 28px;
+}
+
+.button-nav1:hover,
+.button-nav2:hover,
+.button-nav3:hover,
+.button-nav4:hover,
+.button-nav5:hover{
+    cursor: pointer;
+}
+
+.nav1,
+.nav2,
+.nav3,
+.nav4,
+.nav5{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.tooltip{
+    font-size: 12px;
+}
+
+
