@@ -1,7 +1,8 @@
-.header-link a {
+.tooltip {
     color: inherit; 
     text-decoration: none; 
-  }
+    cursor: pointer;
+}
 
 .header{
     height: 110px;
